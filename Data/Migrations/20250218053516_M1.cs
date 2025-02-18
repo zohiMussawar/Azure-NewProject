@@ -187,8 +187,8 @@ namespace Blog1.Data.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "CreatedDate", "Description", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "632d8202-5d2b-4e74-bde6-12c7e5fe0638", null, new DateTime(2025, 2, 14, 14, 8, 34, 594, DateTimeKind.Local).AddTicks(7203), "This is the Admin role", "Admin", "ADMIN" },
-                    { "ae18f9ad-9182-402f-b522-a3d45965d1a8", null, new DateTime(2025, 2, 14, 14, 8, 34, 597, DateTimeKind.Local).AddTicks(9195), "This is the Contributor role", "Contributor", "CONTRIBUTOR" }
+                    { "112c245b-a323-4848-b750-bbe5033c3502", null, new DateTime(2025, 2, 17, 21, 35, 12, 902, DateTimeKind.Local).AddTicks(8860), "This is the Contributor role", "Contributor", "CONTRIBUTOR" },
+                    { "2e0b205e-0e95-4a79-b042-327435b22395", null, new DateTime(2025, 2, 17, 21, 35, 12, 897, DateTimeKind.Local).AddTicks(2749), "This is the Admin role", "Admin", "ADMIN" }
                 });
 
             migrationBuilder.InsertData(
@@ -196,8 +196,8 @@ namespace Blog1.Data.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "FirstName", "IsApproved", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "Role", "SecurityStamp", "Status", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "51111fc1-52a6-447c-a04e-2b9b8fe5a92c", 0, "082c1486-ddca-4e47-93a3-7ee08f5d9425", "aa@aa.aa", true, "Adam", true, "Mussawar", false, null, "AA@AA.AA", "AA@AA.AA", "AQAAAAIAAYagAAAAECZVHOTomqw/SnXWbE/SzDBX0jFbMlDzhBJmYWxkWRJaB0W01dubXAuV35Za2JKSzQ==", null, false, "Contributor", "4347d749-4eb3-4107-a765-b73af3f4f8ef", "Pending", false, "aa@aa.aa" },
-                    { "89f5afef-5498-4ac4-8abe-cba582a5062a", 0, "d8f31280-a237-4e9b-8b5b-92f71c7fc159", "cc@cc.cc", true, "Marry", false, "Messon", false, null, "MARRY", "CC@CC.CC", "AQAAAAIAAYagAAAAECDHL/t0+g9r2CO/IICMS/zenwkWzKGb0BAiAIB8woK2/NmacFzRycnG1lNB+CnTbg==", null, false, "Contributor", "cb2b50b9-6e65-4f3b-b1f0-290171618b16", "Pending", false, "cc@cc.cc" }
+                    { "5260748b-40cc-4f71-b75d-83211b0a5b9a", 0, "a295c1d9-8f62-4bf2-926c-8e04857aebff", "cc@cc.cc", true, "Marry", false, "Messon", false, null, "MARRY", "CC@CC.CC", "AQAAAAIAAYagAAAAENBgNwDPr+gDA8mDk49UbihRDzYJJlMvdAEBgpS5hUkK2dBy9ftyilU+UjkxyOg5CA==", null, false, "", "696ab4f3-9cc9-4910-a004-ec6f8bb395b7", "Pending", false, "cc@cc.cc" },
+                    { "593fb015-58f8-405f-bb39-e5aa6b935c2d", 0, "8611e162-2366-4c61-ad0d-d3c7afb88d79", "aa@aa.aa", true, "Adam", true, "Mussawar", false, null, "AA@AA.AA", "AA@AA.AA", "AQAAAAIAAYagAAAAEMfbOScUo1ZGrypRXRsKrMzLl6usXB24fnx0EURG2LbGa48DtFOWvmfdst2wnHdTlQ==", null, false, "", "7d30cc74-106d-4857-aab8-f9b53d84ed6a", "Pending", false, "aa@aa.aa" }
                 });
 
             migrationBuilder.InsertData(
@@ -205,8 +205,8 @@ namespace Blog1.Data.Migrations
                 columns: new[] { "RoleId", "UserId" },
                 values: new object[,]
                 {
-                    { "632d8202-5d2b-4e74-bde6-12c7e5fe0638", "51111fc1-52a6-447c-a04e-2b9b8fe5a92c" },
-                    { "ae18f9ad-9182-402f-b522-a3d45965d1a8", "89f5afef-5498-4ac4-8abe-cba582a5062a" }
+                    { "112c245b-a323-4848-b750-bbe5033c3502", "5260748b-40cc-4f71-b75d-83211b0a5b9a" },
+                    { "2e0b205e-0e95-4a79-b042-327435b22395", "593fb015-58f8-405f-bb39-e5aa6b935c2d" }
                 });
 
             migrationBuilder.CreateIndex(

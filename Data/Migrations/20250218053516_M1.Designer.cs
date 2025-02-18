@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Blog1.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250214220836_M1")]
+    [Migration("20250218053516_M1")]
     partial class M1
     {
         /// <inheritdoc />
@@ -83,16 +83,16 @@ namespace Blog1.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "632d8202-5d2b-4e74-bde6-12c7e5fe0638",
-                            CreatedDate = new DateTime(2025, 2, 14, 14, 8, 34, 594, DateTimeKind.Local).AddTicks(7203),
+                            Id = "2e0b205e-0e95-4a79-b042-327435b22395",
+                            CreatedDate = new DateTime(2025, 2, 17, 21, 35, 12, 897, DateTimeKind.Local).AddTicks(2749),
                             Description = "This is the Admin role",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "ae18f9ad-9182-402f-b522-a3d45965d1a8",
-                            CreatedDate = new DateTime(2025, 2, 14, 14, 8, 34, 597, DateTimeKind.Local).AddTicks(9195),
+                            Id = "112c245b-a323-4848-b750-bbe5033c3502",
+                            CreatedDate = new DateTime(2025, 2, 17, 21, 35, 12, 902, DateTimeKind.Local).AddTicks(8860),
                             Description = "This is the Contributor role",
                             Name = "Contributor",
                             NormalizedName = "CONTRIBUTOR"
@@ -184,9 +184,9 @@ namespace Blog1.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "51111fc1-52a6-447c-a04e-2b9b8fe5a92c",
+                            Id = "593fb015-58f8-405f-bb39-e5aa6b935c2d",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "082c1486-ddca-4e47-93a3-7ee08f5d9425",
+                            ConcurrencyStamp = "8611e162-2366-4c61-ad0d-d3c7afb88d79",
                             Email = "aa@aa.aa",
                             EmailConfirmed = true,
                             FirstName = "Adam",
@@ -195,19 +195,19 @@ namespace Blog1.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "AA@AA.AA",
                             NormalizedUserName = "AA@AA.AA",
-                            PasswordHash = "AQAAAAIAAYagAAAAECZVHOTomqw/SnXWbE/SzDBX0jFbMlDzhBJmYWxkWRJaB0W01dubXAuV35Za2JKSzQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEMfbOScUo1ZGrypRXRsKrMzLl6usXB24fnx0EURG2LbGa48DtFOWvmfdst2wnHdTlQ==",
                             PhoneNumberConfirmed = false,
-                            Role = "Contributor",
-                            SecurityStamp = "4347d749-4eb3-4107-a765-b73af3f4f8ef",
+                            Role = "",
+                            SecurityStamp = "7d30cc74-106d-4857-aab8-f9b53d84ed6a",
                             Status = "Pending",
                             TwoFactorEnabled = false,
                             UserName = "aa@aa.aa"
                         },
                         new
                         {
-                            Id = "89f5afef-5498-4ac4-8abe-cba582a5062a",
+                            Id = "5260748b-40cc-4f71-b75d-83211b0a5b9a",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d8f31280-a237-4e9b-8b5b-92f71c7fc159",
+                            ConcurrencyStamp = "a295c1d9-8f62-4bf2-926c-8e04857aebff",
                             Email = "cc@cc.cc",
                             EmailConfirmed = true,
                             FirstName = "Marry",
@@ -216,10 +216,10 @@ namespace Blog1.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "MARRY",
                             NormalizedUserName = "CC@CC.CC",
-                            PasswordHash = "AQAAAAIAAYagAAAAECDHL/t0+g9r2CO/IICMS/zenwkWzKGb0BAiAIB8woK2/NmacFzRycnG1lNB+CnTbg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAENBgNwDPr+gDA8mDk49UbihRDzYJJlMvdAEBgpS5hUkK2dBy9ftyilU+UjkxyOg5CA==",
                             PhoneNumberConfirmed = false,
-                            Role = "Contributor",
-                            SecurityStamp = "cb2b50b9-6e65-4f3b-b1f0-290171618b16",
+                            Role = "",
+                            SecurityStamp = "696ab4f3-9cc9-4910-a004-ec6f8bb395b7",
                             Status = "Pending",
                             TwoFactorEnabled = false,
                             UserName = "cc@cc.cc"
@@ -313,13 +313,13 @@ namespace Blog1.Data.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "51111fc1-52a6-447c-a04e-2b9b8fe5a92c",
-                            RoleId = "632d8202-5d2b-4e74-bde6-12c7e5fe0638"
+                            UserId = "593fb015-58f8-405f-bb39-e5aa6b935c2d",
+                            RoleId = "2e0b205e-0e95-4a79-b042-327435b22395"
                         },
                         new
                         {
-                            UserId = "89f5afef-5498-4ac4-8abe-cba582a5062a",
-                            RoleId = "ae18f9ad-9182-402f-b522-a3d45965d1a8"
+                            UserId = "5260748b-40cc-4f71-b75d-83211b0a5b9a",
+                            RoleId = "112c245b-a323-4848-b750-bbe5033c3502"
                         });
                 });
 
